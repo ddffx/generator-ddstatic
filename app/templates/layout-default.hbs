@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>{{title}}</title>
+		<meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://www.washingtonpost.com/pb/resources/assets/fonts/fontawesome/4.0.3/css/font-awesome.css">
+{{#production}}
+		<link href="../css/main.min.css" rel="stylesheet">
+		<style type="text/css">
+			body {
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+		</style>
+		<link href="../css/main-responsive.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="../js/vendor/html5shiv.min.js"></script>
+		<![endif]-->
+{{else}}
+		<link href="../css/main.css" rel="stylesheet">
+		
+		<style type="text/css">
+			body {
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+		</style>
+		<link href="../css/main-responsive.css" rel="stylesheet">
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script src="../js/vendor/html5shiv.js"></script>
+		<![endif]-->
+{{/production}}
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				{{>header}}
+			</div>
+			<div class="row">
+				<!-- Content Well -->
+				{{>body}}
+				<!-- Sidebar -->
+				{{>sidebar}}
+			</div>
+			<div class="row">
+				{{>footer}}
+			</div>
+		</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+{{#production}}
+		<script src="../js/frontend.min.js"></script>
+{{else}}
+		<script src="../js/frontend.js"></script>
+{{/production}}
+
+	</body>
+</html>

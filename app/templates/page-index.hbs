@@ -1,0 +1,27 @@
+---
+title: Mocks Landing
+layout: app/html/layouts/default.hbs
+---
+			<!-- Content -->
+			<!-- content well -->
+        <div class="col-md-8 col-lg-8 col-sm-12">
+          <!-- Feature Container Schedules & Results-->
+          <h3>Implemented Pages:</h3>
+         <ul class="list-group index">
+            {{#each pages}}
+              {{log basename}}
+              {{#compare basename "==" "coming-soon"}}
+              {{else}}
+                <li class="list-group-item" >
+                  <h4 class="list-group-item-heading"><a href="{{filename}}">{{data.title}}</a> </h4>
+                <p class="list-group-item-text">Mock:{{data.mockupName}}</p>
+                </li>
+              {{/compare }}
+          {{/each}}
+         </ul>
+        </div>
+        <!-- end content well -->
+			
+
+			
+			<!-- /Content -->
