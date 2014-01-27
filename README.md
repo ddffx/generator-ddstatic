@@ -29,7 +29,7 @@ It is a generator for [Yeoman](http://yeoman.io).
 * [Assemble](http://assemble.io/)
 
 #### How it works
-Make sure you have NodeJS, Grunt, Bower & Yeoman installed.
+Make sure you have NodeJS, SASS, Grunt, Bower & Yeoman installed.
 
 #### 1. Create your project dircetory
 `mkdir myapp && cd $_`
