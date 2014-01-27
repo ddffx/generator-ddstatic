@@ -20,6 +20,7 @@ It is a generator for [Yeoman](http://yeoman.io).
 - OSX
 - Windows
 - Linux
+
 #### Technology:
 - [NodeJS](http://nodejs.org/)
 - [Grunt JS](http://gruntjs.com/)
