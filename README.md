@@ -34,28 +34,9 @@ Make sure you have NodeJS, SASS, Grunt, Bower & Yeoman installed.
 #### 1. Create your project dircetory
 `mkdir myapp && cd $_`
 #### 2. Inside the directory
-`yo postatic`
+`yo ddstatic`
 
 
-## Getting Started
-### Make sure you have Node and SASS installed in your computer
-
-### Next Install Yeoman
-
-```
-$ npm install -g yo
-```
-### To install generator-ddstatic from npm, run:
-
-```
-$ npm install -g generator-ddstatic
-```
-
-Finally, initiate the generator:
-
-```
-$ yo ddstatic
-```
 
 # License
 
